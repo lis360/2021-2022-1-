@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <meta name="title" content="VENCA">
+    <meta name="description" content="Ropa de mujer de todas las tallas, con estilo elegante">
+    <meta name="keywords" content="ropa, ropa de mujer, ropa">
+    <meta name="robots" content="No index, No follow">
+    <meta http-equiv="refresh" content="500; http://www.venca.es">
+    <meta name="language" content="ES">
+    <meta name="copyright" content="@">
+    <script>
+        function pasarAMayusc(campo) {
+            campo.value = campo.value.toUppercase();
+            campo.style ="border:2px solid red";
+        }
+        function quitarRojo(campo) {
+            campo.style ="borde:1px solid black";
+        }
+    </script>
+
+</head>
+<body>
+    <div style="background:rgb(233, 192, 233);
+    width: auto;
+    height: 800px;">
+    <div style="width: 600px; margin: 0 auto;">
+        <h2>Formulario</h2>
+        <form action="registro.php" method="get">
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre y Apellido</label></td>
+                    <td><input type="text" name="Nombre y Apellido" id="Nombre y Apellido"
+                        value="" 
+                        placeholder="Introduzca Nombre y apellido"
+                        autofocus
+                        size=""
+                        required
+                        maxlength="30"
+                        onkeyup="pasarAMayusc(this)"
+                        onblur="quitarRojo(this)">
+                        </td>
+                    
+                </tr>
+                
+                <tr>
+                    <td><label for="pregunta">¿Mayor de edad?</label></td>
+                    <td>
+                        <input type="radio" name="pregunta" id="pregunta"
+                        value="si" checked><spam>si</spam>
+                        <input type="radio" name="pregunta" id="pregunta"
+                        value="no" checked><spam>no</spam>
+                    </td>
+                </tr>
+                 <tr>
+                        <td><label for="edad">Edad</label></td>
+                        <td><input type="number" name="edad" id="edad" maxlength="5" step="0.5" minlength="">
+                 </tr>
+                <tr>
+
+                    <td><label for="Dirección">Dirección</label></td>
+                    <td><input type="text" name="Dirección" id="Dirección"
+                        value="" 
+                        placeholder="Introduzca Dirección"
+                        autofocus
+                        size=""
+                        required
+                        maxlength="30"
+                        onkeyup="pasarAMayusc(this)"
+                        onblur="quitarRojo(this)">
+                        </td>
+                </tr>
+                       
+                
+                <tr>
+                    <td><label for="Ciudad">Ciudad</label></td>
+                    <td>
+                        <select name="Ciudad" id="Ciudad">
+                            <optgroup>
+                                <option value="-1"select>seleccionar provincia</option>
+                                <option value="41">sevilla</option>
+                                <option value="2">Malaga</option>
+                                <option value="39">Granada</option>
+                                <option value="27">Jaen</option>
+                                <option value="51">Cordoba</option>
+                                <option value="61">Murcia</option>
+                            </optgroup>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="telefono">Telefono</label></td>
+                    <td>Número: <input type="tel" name="tel_control"placeholder="9********" required/></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="pregunta">¿Experiencia Laboral?</label></td>
+                    <td>
+                        <input type="radio" name="pregunta" id="pregunta"
+                        value="si" checked><spam>si</spam>
+                        <input type="radio" name="pregunta" id="pregunta"
+                        value="no" checked><spam>no</spam>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="fechas">Fecha del ultimo Trabajo</label></td>
+                    <td>
+                        <input type="date" name="fecha1" id="fecha1">
+                        <input type="datetime" name="fecha2" id="fecha2">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="Redes Sociales">Redes Sociales</label></td>
+                    <td>
+                        <input type="checkbox" name="Faceboox" id="Faceboox" value="F"> <span>Faceboox</span>
+                        <input type="checkbox" name="Twitter" id="Twitter" value="T"><spam>Twitter</span> 
+                        <input type="checkbox" name="Instagran" id="Instagran" value="I"><span>Instagran</span>
+                        </td>
+                </tr>
+                
+                
+                <tr>
+                    <td><label for="descripción">Descripción Personal</label></td>
+                    <td>
+                       <textarea name="descripción" id="descripción" rows="10" cols="50" maxlength="50">Descripción propia para el puesto de Trabajo </textarea>
+                    </td>
+                </tr>
+
+                
+                
+                <tr>
+                <td><label for="email">Email</lavel></td>
+                <td>
+                    <input type="search" name="email" id="email" required>
+                    
+                </td>
+            
+                </tr>
+                
+                <tr>
+                    <td><label for="fichero">curriculum</label></td>
+                    <td>
+                        <input type="file" name="fichero" id="fichero">
+                    </td>
+                </tr>
+            
+                <tr>
+            
+                    <td><input type="submit" value="Envie Formulario"></td>
+
+                </tr>
+            </table>
+                
+            </imput>
+
+        </form>
+
+    </div>
+</div>
+    
+</body>
+</html>
+

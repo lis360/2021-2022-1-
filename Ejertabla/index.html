@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <table rule="group" style="border:1px solid blue;border-collapse: collapse;margin: 100px;">
+        <caption>Horario de Clase</caption>
+        <thead>
+            <tr style="border: 1px dotted red;">
+                <td style="padding: 10px;"><span>Lunes</span></td>
+                <td><span>Martes</span></td>
+                <td><span>Miercoles</span></td>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+            <td colspan="2" style="text-align: center;"><span>1 - 2</span></td>
+            <td rowspan="2" style="text-align: center;"><span>3 - 6</span></td>
+            </tr>
+            <tr>
+                <td><span>4</span></td>
+                <td><span>5</span></td>
+                
+            </tr>
+            <tr>
+                <td><span>7</span></td>
+                <td><span>8</span></td>
+                <td>
+                    <table style="border: 1px solid black">
+                        <caption>Otra Tabla</caption>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <span>Inicio</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span>1111</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                </tr>
+        </body>
+        <tfoot>
+            <tr>
+                <td><span>12</span></td>
+                <td><span>15</span></td>
+                <td><span>18</span></td>
+                </tr>
+        </tfoot>
+        </table>
+        
+    
+        
+    
+</body>
+</html>
