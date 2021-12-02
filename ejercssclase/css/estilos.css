@@ -1,0 +1,32 @@
+div#primero  {
+    margin:50px;
+}
+
+a {
+    font-size: 18px;
+  
+   color: red;
+}
+
+p#padre {
+    color:rgb(166, 166, 201);
+ }
+ em#hijo {
+     background-color: yellow;
+     color:blue;
+     
+ }
+ div#segundo {
+       margin:50px;
+ }
+ em.especial {
+     background-color: black;
+      color: yellow;
+ }
+span {
+      font-weight:bolder ;
+}
+
+
+  
+

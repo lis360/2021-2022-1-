@@ -1,0 +1,49 @@
+table th {
+    width: 10em;
+    padding: 1em;
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-of-type(1) >th {
+    background-color: orange;
+}
+
+td {
+    font-size: 25px; 
+}
+tr:nth-of-type(2) > th,
+tr:nth-of-type(3) > th,
+tr:nth-of-type(4) > th,
+tr:nth-of-type(5) > th,
+tr:nth-of-type(6) > th,
+tr:nth-of-type(7) > th,
+tr:nth-of-type(8) > th {
+    background-color:green;
+}
+
+td[colspan] {
+    text-align: center;
+    background-color: beige;
+    font-weight: bold;
+}
+
+.lengua {
+    background-color: cadetblue;
+}
+
+.religion{
+    background-color: cornflowerblue;
+}
+
+.ingles {
+    background-color: rgb(204, 102, 122);
+}
+
+.biologia {
+    background-color: darkkhaki;
+}
+
+.matematica {
+    background-color: darkseagreen;
+}

@@ -1,0 +1,43 @@
+a,p {
+    font-size: 18px;
+}
+
+div a {
+    color: crimson;
+}
+
+div#capa1 {
+    background: blue;
+}
+
+.letraGrande {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nosubrayado {
+    text-decoration: none;
+}
+
+div#capa1 a.encima {
+    font-weight: bold;
+}
+
+div#capa1 a.encima {
+    font-style: italic;
+}
+
+div#capa1 a.encima:hover {
+    font-size: xx-large;
+}
+
+p#miparrafo::first-line {
+    font-size: 60px;
+    color:blue;
+    font-family:monospace
+}
+
+div#cap1 * {
+    background: burlywood;
+}
+

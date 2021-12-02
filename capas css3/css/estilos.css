@@ -1,0 +1,53 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#contenedor{
+    background-color: yellow;
+    width: 1000px;
+    height: 1000px;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+#header{
+    background-color: tomato;
+    width: 950px;
+    height: 150px;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#padre{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    border-radius: 1em;
+    margin: 1em;
+}
+#hijo{
+    background-color: violet;
+    width: 480px;
+    height: 480px;
+    border-radius: 1em;
+    margin: 1em;
+    
+}
+
+#hijo2{  
+background-color: green;
+width: 480px;
+height: 480px;
+border-radius: 1em;
+margin-left: 1px;
+
+
+}
+#footer{
+    background-color: red;
+    width: 950px;
+    height: 300px;
+    border-radius: 1em;
+    margin: 1em;
+}
