@@ -1,0 +1,48 @@
+.contenedor {
+    
+    margin: 0px;
+    
+    
+    
+}
+
+#header {
+    background: rgb(44, 44, 44);
+    font-size: x-large;
+    color: white;
+    width: 800px;
+    height: 80px;
+    float: left;
+    align-items: baseline;
+    
+    
+    
+    
+    
+}
+
+#eyes {
+    width:800px;
+    height: 30px;
+    display: flex;
+    
+}
+
+.elemento {
+    width: 100px;
+    height: 30px;
+    color: rgb(49, 49, 49);
+    float: left;
+    background: grey;
+    flex-grow: 1;
+    
+    
+}
+.mundo {
+    width: 150px;
+    height: 30px;
+    color: rgb(104, 100, 100);
+    float: left;
+    background-color: rgb(53, 52, 52);
+    
+}

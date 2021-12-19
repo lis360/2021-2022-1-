@@ -6,7 +6,8 @@
     font-weight:bolder
 }
 #dos{
-
+   font-family: 'Courier New', Courier, monospace;
+   font-style: italic;
 }
 
 #a{
@@ -91,4 +92,14 @@
     background-color: rgb(219, 228, 236);
     width: 1000px;
     height: 300px;
+}
+table th {
+    width: 10em;
+    padding: 1em;
+}
+
+td {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
 }
