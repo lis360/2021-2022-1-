@@ -1,0 +1,36 @@
+/*
+aparece en el css
+*/
+/* line 11, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+body {
+  background-color: #454576;
+  color: #546737;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 18, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.clase-1 {
+  color: #555555;
+}
+
+/* line 18, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.clase-2 {
+  color: #aaaaaa;
+}
+
+/* line 18, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.clase-3 {
+  color: white;
+}
+
+/* line 18, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.clase-4 {
+  color: white;
+}
+
+/* line 34, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.info {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=estilos.css.map */

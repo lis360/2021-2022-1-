@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../SAS/estilos.scss"
+	],
+	"sourcesContent": [
+		"/*\r\naparece en el css\r\n*/\r\n\r\n// El comentario de una línea. No aparece en el css//\r\n\r\n$primary-color: #454576;\r\n$secondary-color:#546737;\r\n$body-font: 'Roboto', sans-serif;\r\n\r\nbody {\r\n    background-color: $primary-color;\r\n    color: $secondary-color;\r\n    font-family: $body-font;\r\n}\r\n\r\n@for $c from 1 through 4 {\r\n    .clase-#{$c} {\r\n        color:rgb($c*255/3, $c*255/3, $c*255/3);\r\n    }\r\n}\r\n\r\n$debug:true !default;\r\n\r\n@mixin debugmode {\r\n    @if $debug {\r\n        display: inline-block;\r\n    }\r\n    @else {\r\n        display:none;\r\n    }\r\n}\r\n\r\n.info {\r\n    @include debugmode;\r\n}  "
+	],
+	"names": [],
+	"mappings": "AAAA;;EAEE;;AAQF,AAAA,IAAI,CAAC;EACD,gBAAgB,EALJ,OAAO;EAMnB,KAAK,EALQ,OAAO;EAMpB,WAAW,EALH,QAAQ,EAAE,UAAU;CAM/B;;;AAGG,AAAA,QAAQ,CAAK;EACT,KAAK,EAAC,OAAiC;CAC1C;;;AAFD,AAAA,QAAQ,CAAK;EACT,KAAK,EAAC,OAAiC;CAC1C;;;AAFD,AAAA,QAAQ,CAAK;EACT,KAAK,EAAC,KAAiC;CAC1C;;;AAFD,AAAA,QAAQ,CAAK;EACT,KAAK,EAAC,KAAiC;CAC1C;;;AAcL,AAAA,KAAK,CAAC;EAPE,OAAO,EAAE,YAAY;CAS5B"
+}
