@@ -1,0 +1,43 @@
+/*
+Aparece en el css
+*/
+/* line 7, ../../../../../github1/2021-2022(1)/csssasejercicio11/sas/estilos.scss */
+body {
+  background-color: #c0c0c0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 12, ../../../../../github1/2021-2022(1)/csssasejercicio11/sas/estilos.scss */
+h1 {
+  font-size: 90px;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 19, ../../../../../github1/2021-2022(1)/csssasejercicio11/sas/estilos.scss */
+ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  list-style-type: none;
+  color: white;
+}
+
+/* line 28, ../../../../../github1/2021-2022(1)/csssasejercicio11/sas/estilos.scss */
+li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 120px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* line 36, ../../../../../github1/2021-2022(1)/csssasejercicio11/sas/estilos.scss */
+a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+/*# sourceMappingURL=estilos.css.map */

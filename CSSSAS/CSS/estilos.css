@@ -28,9 +28,113 @@ body {
   color: white;
 }
 
-/* line 34, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+/* line 33, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
 .info {
   display: inline-block;
+}
+
+/* line 41, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.col-4 {
+  width: 80px;
+  left: 240px;
+}
+
+/* line 41, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.col-3 {
+  width: 80px;
+  left: 160px;
+}
+
+/* line 41, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.col-2 {
+  width: 80px;
+  left: 80px;
+}
+
+/* line 41, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.col-1 {
+  width: 80px;
+  left: 0px;
+}
+
+/* line 53, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.social-links .icon-facebook {
+  background-image: url("images/facebook.png");
+}
+
+/* line 53, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.social-links .icon-twitter {
+  background-image: url("images/twitter.png");
+}
+
+/* line 53, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.social-links .icon-linkedin {
+  background-image: url("images/linkedin.png");
+}
+
+/* line 53, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.social-links .icon-reddit {
+  background-image: url("images/reddit.png");
+}
+
+/* line 69, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  background-color: #454576;
+}
+
+/* line 79, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.rectangulo {
+  width: 100px;
+  height: 80px;
+}
+
+/* line 83, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.cubo {
+  width: 50px;
+  height: 40px;
+}
+
+/* line 90, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.micapa {
+  width: 31.25%;
+}
+
+/* line 94, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.display, .display-success {
+  width: 5em;
+  height: 5em;
+  border: 5px solid #546737;
+}
+
+/* line 99, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+.display-success {
+  border-color: #c0c0c0;
+}
+
+/* line 104, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+ul {
+  list-style-type: none;
+  margin-top: 2em;
+}
+
+/* line 108, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+ul li {
+  background-color: blue;
+}
+
+/* line 111, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+ul li:hover {
+  background-color: red;
+}
+
+/* line 115, ../../../../../github1/2021-2022(1)/CSSSAS/SAS/estilos.scss */
+ul li a {
+  color: white;
 }
 
 /*# sourceMappingURL=estilos.css.map */
