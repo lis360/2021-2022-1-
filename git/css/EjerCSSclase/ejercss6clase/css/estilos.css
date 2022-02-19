@@ -1,0 +1,36 @@
+h1{
+    font-weight:bold;
+    font-size:35px;
+}
+
+li{
+    list-style-type:square;
+    font-size:15px;
+    
+}
+.cuatro{
+    background-color: yellow;
+}
+
+h4{
+    border:solid 6px purple;
+    color: red;
+}
+
+
+#padre{
+    background-color: skyblue;
+}
+.uno{
+    background-color: green;
+}
+.dos{
+    color:red;
+}
+.tres{
+    background-color: green;
+}
+
+.cinco{
+    background-color: yellow;
+}

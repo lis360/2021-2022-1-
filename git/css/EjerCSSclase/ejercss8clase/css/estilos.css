@@ -1,0 +1,61 @@
+#container{
+    margin: auto;
+    
+}
+
+
+#padre{
+    width: 1100px;
+    height: 50px;
+    background-color: black;
+    align-items: baseline;
+    float: left;
+}
+#head{
+    display: flex;
+    width: 1200px;
+    height: 570px;
+}
+h1{
+    color:white;
+    font-size:20px;
+    text-align:right;
+    padding: 3px;
+}
+h2{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#hermano{
+    background: turquoise;
+    width:370px ;
+    height: 400px;
+}
+.uno{
+    width:355px ;
+    height: 200px;
+    padding: 0px 7px;
+}#hermana{
+    background: rgb(179, 248, 179);
+    width:370px ;
+    height: 400px;
+}
+.dos{
+    width:355px ;
+    height: 200px;
+    padding: 0px 7px;
+}
+#prima{
+    background: lightpink;
+    width:360px ;
+    height: 400px;
+}
+.tres{
+    width:345px ;
+    height: 200px;
+    padding: 0px 7px;
+}

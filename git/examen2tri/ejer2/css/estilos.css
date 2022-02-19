@@ -1,0 +1,36 @@
+#uno{
+    width: 1000px;
+    height: 100px;
+}
+h2{
+    font-style: italic;
+}
+
+.pagina{
+    font-style: italic;
+}
+#data{
+    font-weight: bold;
+    width: 1000px;
+    height: 100px;
+    background-color: grey;
+}
+.dos{
+    font-weight: bold;
+}
+.segundo{
+    text-decoration: chartreuse;
+    
+}
+.ve{
+    font-size: 20px;
+}
+.azul{
+    color:blue
+}
+.primer:hover{
+ font-size: 10px;
+}
+.fondo{
+    background-color: grey;
+}

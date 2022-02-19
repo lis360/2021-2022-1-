@@ -1,0 +1,15 @@
+.error {
+    background-color: red;
+}
+
+.sucess {
+    border: green 3px solid;
+    background-color: greenyellow;
+    color: green;
+}
+
+.warning{
+
+    background-color: yellow;
+}
+

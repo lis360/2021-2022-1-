@@ -1,0 +1,118 @@
+.container{
+   margin: 0px;
+}
+.uno{
+    background-color: rgb(22, 238, 40);
+    width: 1000px;
+    height: 50px;
+    
+}
+.dos{
+    display: flex;
+}
+.tres{
+    background-color: rgb(218, 12, 12);
+    width: 150px;
+    height: 400px;
+    margin: 2px;
+}
+.cuatro{
+    width: 843px;
+    height:400px;
+}
+
+#cinco{
+    background-color: rgb(22, 238, 40);
+    width: 1000px;
+    height: 30px;
+}
+.primero{
+    background-color: fuchsia;
+    width: 843px;
+    height: 40px;
+    margin: 2px;
+}
+.segundo{
+    background-color: orange;
+    width: 417px;
+    height: 150px;
+    float: right;
+    margin: 2px;
+}
+.tercero{
+    background-color: orange;
+    width: 417px;
+    height: 150px;
+    margin: 2px;
+}
+.cuarto{
+    background-color: blue;
+    width: 150px;
+    height: 97px;
+    margin: 2px;
+    float: left;
+}
+.quinto{
+    background-color: blue;
+    width: 150px;
+    height: 97px;
+    margin: 2px;
+    float: left;
+}
+.sexto{
+    background-color: blue;
+    width: 223px;
+    height: 97px;
+    margin: 2px;
+    float: left;
+}
+.septimo{
+    background-color: blue;
+    width: 150px;
+    height: 97px;
+    margin: 2px;
+    float: left;
+}
+.octavo{
+    
+    background-color: blue;
+    width: 150px;
+    height: 97px;
+    margin: 2px;
+    float: left;
+}
+.noveno{
+    background-color: blue;
+    width: 150px;
+    height: 97px;
+    margin: 2px;
+    float: left;;
+}
+.decimo{
+    background-color: blue;
+    width: 150px;
+    height: 97px;
+    margin: 2px;
+    float: left;
+}
+.onceavo{
+    background-color: blue;
+    width: 223px;
+    height: 97px;
+    margin: 2px;
+    float: left;
+}
+.doceavo{
+    background-color: blue;
+    width: 150px;
+    height: 97px;
+    margin: 2px;
+    float: left;
+}
+.treceavo{
+    background-color: blue;
+    width: 150px;
+    height: 97px;
+    margin: 2px;
+    float: left;
+}

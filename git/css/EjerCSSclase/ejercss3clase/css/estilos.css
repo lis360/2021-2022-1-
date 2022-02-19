@@ -1,0 +1,35 @@
+body {
+    margin: 100px;
+    border:2px solid;
+}
+h1,h2 {
+    color:green
+}
+strong,em {
+    color:rgb(211, 163, 6);
+}
+label {
+    color:red
+}
+
+td#padre {
+    color: blue
+}
+
+td#hijo {
+    color:purple
+}
+a#sobrino {
+    color:skyblue
+}
+li{
+    color:red
+}
+.usa{
+    color :black
+}
+.world{
+    color:black
+}
+
+
