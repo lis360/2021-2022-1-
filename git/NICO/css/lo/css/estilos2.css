@@ -1,0 +1,42 @@
+.principal h2 {
+    font-style: italic;
+  }
+  
+  .texto {
+    font-style: italic;
+  }
+  
+  #datos {
+    background-color: grey;
+    color: black;
+  }
+  
+  div span{
+      font-weight: bold;
+  }
+  
+  .segundo:hover{
+  background-color: red;
+  }
+  
+  .letra{
+      font-size: 60px;
+  }
+  
+  
+  .azul{
+      color: blue;
+  }
+  
+  .rojo{
+      color: red;
+  }
+  
+  .primer:hover{
+      font-size: 60px;
+  }
+  
+  .fondo{
+      background-color: gray;
+  }
+  

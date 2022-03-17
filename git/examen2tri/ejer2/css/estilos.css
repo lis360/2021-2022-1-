@@ -12,25 +12,35 @@ h2{
 #data{
     font-weight: bold;
     width: 1000px;
-    height: 100px;
+    height: 50px;
     background-color: grey;
 }
 .dos{
     font-weight: bold;
 }
-.segundo{
-    text-decoration: chartreuse;
-    
-}
-.ve{
+.segundo:hover{
+    background-color: aqua;
+}/*
+ p::first-letter{
+    font-size: 150%;
+    color:red;
+}*/
+.seg{
     font-size: 20px;
 }
 .azul{
-    color:blue
+    color:blue;
 }
 .primer:hover{
- font-size: 10px;
+ font-size: 20px;
 }
-.fondo{
+.fondo:hover{
     background-color: grey;
+}
+.rojo{
+    color:red;
+}
+.seg:hover{
+    font-size:20px;
+
 }

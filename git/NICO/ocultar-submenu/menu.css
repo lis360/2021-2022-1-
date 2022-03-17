@@ -1,0 +1,84 @@
+
+body{
+	background-color: #252528;
+	padding: 0 1em;
+	color: rgba(255,255,255,.4);
+}
+
+.menu{
+	list-style: none;
+	line-height: 42px;
+	padding-left: 0px;
+	width: 15em;
+	margin: 2em auto;
+}
+
+.menu a{
+	color: #ddd;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	width: 100%;
+}
+
+.menu a:hover{
+	margin-left: 1em;
+	--webkit-transition: all .5;
+	-o-transition: all .5;
+	transition: all .5;
+}
+.menu li{
+	box-shadow: 3px 0 rgba(255,255,255,.2) inset;
+	margin-bottom: 5px;
+	padding-left: 1.5em;
+	--webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.menu li:hover{
+	box-shadow: 15em 0 rgba(255,255,255,.2) inset;
+}
+
+
+
+ul,ol{
+	list-style: none;
+}
+nav{
+	position: absolute;
+	left: -18em;
+	z-index: 20;
+	background-color: rgba(0,0,0,.8);
+	height: 100%;
+	top: 0;
+	padding-right: .25em;
+	padding-top: 3em;
+	transition: all .5s;
+	box-sizing: border-box;
+}
+
+nav.mostrar{
+	left: 0;
+}
+#mostrar-nav{
+	background: url(https://www.google.com.mx/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwievJbtx-DWAhVBF2MKHRFjC4QQjRwIBw&url=https%3A%2F%2Ficons8.com%2Ficon%2F17551%2Ftop-menu&psig=AOvVaw3Hz6QlP7BvIPG84vpsQOkF&ust=1507536125997991);
+	left: 2em;
+	height: 40px;
+	position: absolute;
+	top: 2em;
+	width: 40px;
+	z-index: 30;
+	cursor: pointer;
+}
+
+h1{
+	text-align: right;
+	color: rgba(255,255,255,.7);
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+article{
+	padding:.5em 0;
+}

@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(146, 247, 236);
+}
+
+#container{
+    border: 1px solid black;
+    width: 95%;
+    height: 95vh;
+    margin:auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+    border: 8px solid lightcyan;
+    background-color: #a8eb72;
+    border-radius: 10px;
+    
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    padding: 0 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0,0.5);
+
+}
+#r{
+    border: 1px solid black ;
+    outline: none;
+    width: 100%;
+   ;
+}

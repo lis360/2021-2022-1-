@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+}
+#container{
+    padding: 5px 20%;
+}
+.primero{
+    width: 100%;
+    background-color: rgb(51, 50, 54);
+    padding: 20px;
+    margin: 4px;
+    color: white;
+}
+h1{
+    color:white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+p{
+    margin: 6px 0px;
+}
+.primero>span{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 6px 0px;
+
+}
+.segundo{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    
+    padding: 25px;
+}
+h3{
+    color:blue;
+    font-size: 20px;
+}
+.mundo{
+    width: 25%;
+}
+.mundo>h1{
+    font-size: 35px;
+    color: black;
+}
+h6{
+    color:grey;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+}
+.continuar{
+    color: blue;
+    float: left;
+}
+.thu{
+    background-color: #343a40;
+    color: white;
+    font-size: 30px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #343a40 1px solid; 
+    padding: 10px;
+}
+.tecnologia{
+    width: 25%;
+    padding: 10px;
+}
+
+
+.tecnologia>h3{
+    color:green;
+}
+.tecnologia>h1{
+    color: black;
+    font-size: 35px;
+}
+

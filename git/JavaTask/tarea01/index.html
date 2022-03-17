@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tare01</title>
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/text.css">
+</head>
+<body>
+   
+    <div id="container"> <div class="calculadora"><h1>CALCULADORA</h1>
+    <form>
+        
+                <label for="num1">Nº 1 </label>
+            
+                <input id="num1"type="number" name="num1" placeholder="Escribe un Numero">
+            <br><br>
+                <label for="num2">Nº 2 </label>
+            
+                <input id="num2"  type="number" name="num2"  placeholder="Escribe un Numero">
+            
+                
+            </br></br>
+                <button  type="button" onclick="sumar();">+</button>
+                <button type="button" onclick="restar();">-</button>
+                <button type="button" onclick="multiplicar();">*</button>
+                <button type="button" value="/" onclick="dividir();">/</button>
+            </br>   
+            <p>EL RESULTADO ES: <span id="r"></span></p>
+
+                <button onclick="limpiar()">limpiar campo</button>
+            
+        
+    </form>
+</div>
+</div>
+</body>
+</html>

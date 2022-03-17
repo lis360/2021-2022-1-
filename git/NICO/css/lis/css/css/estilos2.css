@@ -1,0 +1,35 @@
+.italica{
+    font-style: italic;
+}
+.datos {
+    background-color: grey;
+    font-weight: bold;
+}
+.herramientas>span{
+    font-weight: bold;
+}
+
+.segundo:hover{
+    background-color: red;
+}
+.letra{
+    font-size: xx-large;
+}
+#lista1 {
+    color: blue;
+    background-color: gray;
+}
+#lista1:hover{
+    
+    font-size: xx-large;
+}
+#lista2{
+    color:reds
+}
+#lista2:hover{
+
+    font-size: xx-large;
+}
+.rojo{
+    color:red
+}

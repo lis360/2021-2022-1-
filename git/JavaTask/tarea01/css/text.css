@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #c9aaf7;
+}
+
+#container{
+    border: 1px solid black;
+    width: 95%;
+    height: 100vh;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+    border: 1px solid lightcyan;
+    background-color: #ff7c94;
+    border-radius: 5px;
+    width: 400px;
+    margin: auto;
+    padding: 0 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0,0.5);
+
+}
+#r{
+    border: 1px solid black ;
+    outline: none;
+    width: 100%;
+   ;
+}

@@ -5,7 +5,7 @@
 
 .uno{
     background-color: rgb(25, 16, 32);
-    width: 1000px;
+    width: 990px;
     height: 200px;
     color:white;
     padding: 20px;
@@ -13,10 +13,10 @@
 .cero{
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
 }
 p{
-    font-weight: lighter;
+    font-weight:lighter;
 }
 .tercero{
     font-weight: bold;
@@ -36,16 +36,16 @@ p{
     
 }
 .cuarto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    padding: 110px 20px;
 }
 .ceros{
-    color:blue
+    color:blue;
 }
 
 h3{
     font-weight: lighter;
+    color: grey;
 }
 .segundo{
     color:blue;
@@ -65,10 +65,7 @@ h3{
     float: left;
 }
 .quinto{
-    display: flex;
-    
-    justify-content: center;
-    align-content: center;
+    padding: 110px 20px;
 }
 .con{
     color:blue

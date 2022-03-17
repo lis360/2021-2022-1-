@@ -1,0 +1,51 @@
+.container{
+    padding: 20px ;
+}
+.row1{
+    background-color: rgb(43, 42, 42);
+}
+.col-12{
+    color:white
+}
+.col-12>h1{
+    font-weight:900;
+    font-style: italic;
+    font-size: 35px;
+    padding:0px 10px;
+}
+.col-12>p{
+    padding: 0px 10px;
+}
+.col-12>span{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0px 10px;
+    
+}
+.row{
+    padding: 10px 10px;
+
+    
+}
+h2{
+    color: blue;
+}
+h1{
+    font-weight: bold;
+}
+h6{
+    color: gray;
+}
+.col-3>span{
+    color:blue;
+}
+h3{
+    color:green
+}
+.col-3>h4{
+    
+    color: white;
+    font-size: 30px;
+    padding: 150px 45px;
+}

@@ -1,0 +1,21 @@
+.hola{
+    color:blue;
+}
+#textoconfondo{
+    color:yellow;
+    background-color: blue;
+}
+.capa>span{
+      border: 2px solid green;
+}
+.segundo:hover{
+      font-size: 0px;
+	
+}
+.letra{
+    font-size: x-small;
+}
+
+.verde{
+    color:green;
+}
