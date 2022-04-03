@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="js/jquery.3.6.0.js"></script>
+    <link rel="stylesheet" href="css/estilos.css"/>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("div").mouseover(function()  {
+                $(this).addClass("colorfondo");
+            });
+
+            $("div").mouseout(function(){
+                $(this).removeClass("colorfondo");
+                if($(this).hasClass("clase")) {
+                    $(this).addClass("color");
+                }
+
+            })
+            $("button.unboton").click(function(){
+                $("div").toggleClass("ocultarmostrar");
+
+            });
+            $("button.otroboton").click(function(){
+                var estilo = $("span").attr("style");
+                $("div#estilospan").text(estilo);
+
+
+            });
+            $("button#esteboton").click(function(){
+                $("div#estilospan").css("width", "360px")
+
+            });
+            $("button#mostrar").click(function(){
+                var seleccionado = $("input:radio:checked").val();
+                $("span#resultado").text(Selection);
+                $("resultado").text(seleccionado);
+                return false;
+                $("resultado2").text(seleccionado);
+                return false;
+
+            });
+            $("button#activar").click(function(){
+                $("#resultado3").prop("disable",false);
+                $("#resultado3").prop("placeholder", "habilitado");
+                return false;
+            });
+            $("button#desmarcar").click(function(){
+                $("#chequeo").prop("checked", false);
+                return false;
+            });
+            $("input#insertar").click(function(){
+               // $("#capa1").html("<p style='font-weight:bold'>TEXTO</p>");
+                $("#capa1").prepend("<p>Al inicio</p>");
+                $("#capa1").append("<p>Al final</p>");
+                $("#capa1").before("<div>Antes</div>");
+                $("#capa1").after("<div>Despues</div>");
+               $("#capa2").text("TEXTO");
+            });
+            $("#checkmail").click(function(){
+                if ($(this).is(":checked")){
+                    $("#capamail").append("<input type='email' id='myemail'/>");
+
+                }else{
+                    $("#myemail").renove();
+                }
+               
+            });
+        });
+        
+    </script>
+    <style type="text/css">
+        div {
+            width: 150px;
+            height: 35px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .colorfondo {
+            background-color: blue;
+            border: 1px solid black;
+            color :white
+        }
+        .color{
+            color:red
+        }
+        .ocultarmostrar{
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <button class="unboton">mostrar/ocultar</button>
+    <button class="otroboton">ver estilo</button>
+    <button id="esteboton">añadir</button>
+    <div>capa 1</div>
+    <div class="clase">capa 2</div>
+    <div>capa 3</div>
+    <br/>
+    <span style="font-style: italic;">span</span>
+    <br/>
+    <div id="estilospan"></div>
+    <br/>
+    <form>
+        <input type="radio" name="rad" value="opcion1"/>opcion 1 <br/> 
+        <input type="radio" name="rad" value="opcion2"/>opcion 2 <br/> 
+        <input type="radio" name="rad" value="opcion3"/>opcion 3 <br/> 
+        <input type="radio" name="rad" value="opcion4"/>opcion 4 <br/> 
+        <button id="resultado">mostrar</button>
+        <span>resultado</span> <input type="text" id="resultado2"/>
+        <button id="activar">activar</button>
+        <input id=resultado3 type="texto" placeholder="texto" disabled="disabled"/>
+        <br/>
+        <input type="checkbox" id="chequeo" value="si"checked="checked">Si<br/>
+        <button id="desmarcar">desmarcar</button>
+
+
+    </form>
+
+    <input type="button" value="insertar" id="insertar"/>
+    <br/>
+    <div id="capa1"></div>
+    <br/>
+    <div id="capa2"></div>
+
+    <br/>
+
+    <div  id="capamail">
+        <input type="checkbox" id="checkmail"/>¿Email?
+    </div>
+
+
+    
+</body>
+</html>
