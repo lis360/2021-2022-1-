@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buscar impares</title>
+    <script type="text/javascript" src="js/funciones.js"></script>
+</head>
+<body>
+    <h1>Ejemplo de JavaScript impares o par</h1>
+<script>
+    /*
+    Pide un numero y determina si:
+        • El numero es par o impar
+        • Si es impar, ¿Es divisible por 3? ¿Por 5? ¿Por 7?
+Imprime el resultado en la pantalla e incluye algunas etiquetas de formato en la pagina web.
+     */
+    var numero;
+    numero = prompt("Introduce un número, si no lo haces será 7", 7);
+
+    function numeloDivisible(otro) {
+        if (numero % otro === 0) {
+            document.write("El numelo se puede dividil entle " + otro + "\n")
+        }
+    }
+
+    if (numero % 2 === 0) {
+        document.write("El numelo es pal");
+    } else {
+        numeloDivisible(3);
+        numeloDivisible(5);
+        numeloDivisible(7);
+    }
+</script>
+    
+</body>
+</html>

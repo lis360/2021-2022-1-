@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <link rel="stylesheet" href="css/estilos.css"/>
+</head>
+<body>
+   <div id="uno">
+    <h1>EJERCICIO 1</h1>
+
+    <h3>FORMULARIO</h3>
+    
+    <div style="float: left;" >
+      <form action="funciones.php" method="get" name="formu" 
+      onsubmit="return validarFormulario()">
+        
+              <label for="nombre">Nombre y Apellido</label>
+              <input type="text" name="nombre" id="nombre"min="5" max="30" placeholder="nombre y apellido" autofocus onblur="validar(this)">
+
+            <br/>
+            <span id="splogin" style="color: red;"></span>
+            <br/>
+
+            <label for="correo" >Correo Electrónico</label>
+            <input type="email" name="correo" id="correo" placeholder="correo@iestriana.com">
+            <br/><br/>
+
+            <label for="edad">Edad</label>
+            <input type="range" name="edad" id="edad" min="18" max="100" onchange="mostrarEdad(this)">
+            <span id="spedad"></span>
+            <br/><br/>
+
+              <label for="web">Web Personal</label>
+              <input type="url"  name="web" placeholder="http://--------.es" id="web" />
+           
+            <br/><br/>
+              <input type="submit" value="ENVIAR" />
+            
+      </form>
+      <span id="resultado"> Comprobar Validación  </span>
+      
+    </div>
+    <div id="capaerrores" style="justify-content: center;color: red; visibility: hidden;">
+      <h3>Errores</h3>
+      <span id="sperrores"></span>
+    </div>
+  </div>
+
+
+   
+
+   
+</body>
+</html>

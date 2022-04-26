@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+    <h1>EJERCICIO 1</h1>
+
+    <h3>FORMULARIO</h3>
+
+    <div>
+      <form action=""onsubmit="return validar()">
+        <table>
+          <tr>
+            <td>
+              <label for="login">Login</label>
+            </td>
+            <td>
+              <input type="text" class="login" name="login" autofocus />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="web">Web Personal</label>
+            </td>
+            <td>
+              <input type="url" class="web" name="web" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="telefono">Telefono</label>
+            </td>
+            <td>
+              <input type="tel" class="tel" name="telefono" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="deporte">Deporte</label>
+            </td>
+            <td>
+              <input type="checkbox" class="deporte" name="Deporte" />
+            </td>
+            <td>
+              <label for="musica">Musica</label>
+            </td>
+            <td>
+              <input type="checkbox" class="musica" name="musica" />
+            </td>
+            <td>
+              <label for="cine">Cine</label>
+            </td>
+            <td>
+              <input type="checkbox" class="cine" name="cine" />
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" value="ENVIAR" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <span class="js-span-resultado">Comprobar Validación</span>
+
+    
+</body>
+</html>

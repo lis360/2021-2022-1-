@@ -1,0 +1,13 @@
+.ocultar {
+    display: none;
+}
+ 
+.mostrar {
+    display: block;
+}
+#error{
+    color: red;
+}
+#ok{
+    color: blue;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcular Precio</title>
+  </head>
+  <body>
+    <label for="number">Numero Nª 1</label>
+    <input type="number" name="numberuno" id="numberone" autofocus />
+
+    <label for="number">Numero Nª 2</label>
+    <input type="number" name="numberdos" id="numberdos" autofocus />
+
+    <select id="signos" required>
+      <option value="Selecionar">Selecione el signo</option>
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">%</option>
+    </select>
+
+    <input type="submit" value="CALCULAR" onclick="calcular()" />
+
+    
+
+    <script type="text/javascript" src="JS/funciones.js"></script>
+  </body>
+</html>

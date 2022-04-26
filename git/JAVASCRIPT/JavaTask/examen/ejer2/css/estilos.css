@@ -1,0 +1,29 @@
+.primero{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color:red;
+}
+
+.segundo{
+    font-weight: bold;
+    font-size: 50px;
+}
+.tercero{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+   text-decoration: underline;
+}
+#decorar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table{
+border: 2px solid black;
+}
+.tr{
+    border: 2px solid black;
+}
+.td{
+    border: 2px solid black;
+}

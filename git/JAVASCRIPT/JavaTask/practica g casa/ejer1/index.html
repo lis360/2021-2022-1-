@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+    <h1>EJERCICIO 1</h1>
+
+    <h3>FORMULARIO</h3>
+
+    <div style="width: 50%;float: left;">
+      <form action="funciones.php" method="get" name="formu" 
+      onsubmit="return validarFormulario()">
+        
+              <label for="login">Login</label>
+              <input type="text" name="login" id="login" placeholder="login" autofocus onblur="validar(this)">
+
+            <br/>
+            <span id="splogin" style="color: red;"></span>
+            <br/>
+
+              <label for="web">Web Personal</label>
+              <input type="url"  name="web" placeholder="http://--------.es" id="web" />
+
+            <br/>
+
+              <label for="telefono">Telefono</label>
+              <input type="tel"  name="telefono" id="telefono" />
+
+            <br/>
+
+              <label for="deporte">Deporte</label>
+              <input type="checkbox" class="deporte" name="Deporte" />
+
+              <label for="musica">Musica</label>
+              <input type="checkbox" class="musica" name="musica" />
+            
+              <label for="cine">Cine</label>
+              <input type="checkbox" class="cine" name="cine" />
+            <br/><br/>
+              <input type="submit" value="ENVIAR" />
+            
+      </form>
+      <span id="resultado"> Comprobar Validación  </span>
+      
+    </div>
+    <div id="capaerrores" style="width: 50%; float: left;color: red; visibility: hidden;">
+      <h3>Errores</h3>
+      <span id="sperrores"></span>
+  </div>
+
+
+    </div>
+
+   
+
+    
+</body>
+</html>
